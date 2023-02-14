@@ -1,0 +1,267 @@
+/* Clases primarias */
+body{
+	background: #E5E5E5 !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main{
+	padding: 50px 50px 0px 50px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit !important;
+}
+
+h1{
+	font-size: 24px !important;
+	font-weight: 700 !important;
+}
+
+h2{
+	font-size: 18px !important;
+}
+
+.flex{
+	display: flex !important;
+}
+
+.flex-column{
+	flex-direction: column !important;
+}
+
+.flex-between{
+	justify-content: space-between !important;
+}
+
+.align-center{
+	align-items: center !important;
+}
+
+.border-radius-20{
+	border-radius: 20px;
+}
+
+.border-radius-30{
+	border-radius: 30px;
+}
+
+.w-100{
+	width: 100% !important;
+}
+
+.pointer{
+	cursor: pointer !important;
+}
+
+/* Modificadores */
+#sidebar{
+	background: #519BD0;
+	min-height: 800px;
+	width: 15%;
+	margin: 0px 45px 0px;
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+#sidebar ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar ul li{
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	padding: 20px 0px;
+	color: white;
+	font-size: 18px;
+}
+
+#sidebar ul li a{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+#sidebar ul li a i{
+	margin: 0px 10px;
+}
+
+#sidebar2{
+	width: 20%;
+	background-color: white;
+}
+
+/* Icons */
+.icon{
+	display: flex;
+    text-indent: -9999px;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.dashboard-icon{
+	background: url('../icons/dashboard_icon.svg');
+}
+
+.transaction-icon{
+	background: url('../icons/transaction_icon.svg');
+}
+
+.schedule-icon{
+	background: url('../icons/schedule_icon.svg');
+}
+
+.user-icon{
+	background: url('../icons/user_icon.svg');
+}
+
+.settings-icon{
+	background: url('../icons/setting_icon.svg');
+}
+
+.chevron-left{
+	background: url('../icons/chevron-left.svg');
+}
+
+.chevron-right{
+	background: url('../icons/chevron-right.svg');
+}
+
+#calendarContainer{
+	min-width: 350px;
+	background: none;
+}
+
+.calendar{
+	min-height: 550px;
+    background-color: white;
+    margin: 15px 35px 0px 0px;
+    padding: 10px 35px;
+    width: 70%;
+	min-width: 825px;
+}
+
+.caledar-selection{
+	background: white;
+	width: 315px;
+	min-height: 40px;
+	justify-content: space-between;
+    align-items: center;
+	padding: 5px 20px;
+	margin: 5px 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.header-calendar{
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-calendar .controls{
+	justify-content: space-between;
+	align-items: center;
+	width: 60px;
+}
+
+.table-calendar thead tr th, 
+.table-calendar tbody tr td{
+	font-family: 'Lato', sans-serif;
+    height: 40px;
+    width: 13%;
+    font-size: 12px;
+    font-weight: 600;   
+	text-align: center; 
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.table-calendar tbody tr td{
+	width: 80px;
+	height: 80px;
+}
+
+.controls .prev, 
+.controls .next{
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.controls .prev:hover, 
+.controls .next:hover, 
+.table-calendar tbody tr td:hover{
+	background-color: #DFDFDF;
+	transition: .5s ease all;
+}
+
+.bg-info{
+	background: #DFDFDF;
+	border-radius: 30px;
+}
+
+.bg-disabled{
+	background-color: #C0392B !important;
+	color: white !important;
+}
+
+.bg-reservation{
+	background-color: #27AE60 !important;
+	color: white !important;
+}
+
+.search-input{
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border-radius: 10px;
+	border: 0px;
+	background: url('../icons/search_icon.svg') #ffffff 2.5%  no-repeat;
+	background-position-x: 160px;
+	color: #B0B0B0;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	padding: 0px 15px;
+
+}
+
+.profile div{
+	padding: 10px;
+}
+
+.calendar-sidebar{
+	min-height: 550px;
+    max-height: 550px;
+    background-color: white;
+    margin: 15px 0px 0px 0px;
+    padding: 10px 35px;
+    width: 30%;
+    min-width: 250px;
+    overflow: scroll;
+	cursor: pointer;
+}
+
+.calendar-sidebar ul{
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.calendar-sidebar ul li {
+	padding: 5px;
+	font-family: 'Lato';
+	font-size: 14px;
+	background-color: #F5F5F5;
+	margin: 10px 0px;
+	border-left: 5px solid #9BDD7C;
+}

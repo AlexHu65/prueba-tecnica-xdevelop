@@ -1,0 +1,12 @@
+{
+    "app": {
+        "port": 3000
+    },
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "name": "prueba_xdevlop",
+        "dialect": "mysql"
+    }
+}
