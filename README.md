@@ -6,3 +6,5 @@
 2. Instalar en la raiz del proyecto los modulos de node
 
 3. Se hace incluye el archivo .sql de la base de datos
+
+4. npm run dev para correr el proyecto en desarrollo, ya tiene el script de nodemon
