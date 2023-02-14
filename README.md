@@ -1,8 +1,8 @@
 # prueba-tecnica-xdevelop
  Prueba tecnica xdevelop CRUD de usuarios.
 
-1. Instalar en front end los modulos de node: npm run i
+1. Instalar en front end los modulos de node: npm run i ya que hace uso de vue.js y axios para consumir los servicios del backend
 
-2. Instalar en backend los modulos de node
+2. Instalar en la raiz del proyecto los modulos de node
 
 3. Se hace incluye el archivo .sql de la base de datos
